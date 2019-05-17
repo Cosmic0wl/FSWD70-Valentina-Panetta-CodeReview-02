@@ -60,7 +60,8 @@ h2 {
 
 #row {
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 3rem; }
 
 .item {
   width: 32%; }
@@ -70,14 +71,17 @@ h2 {
   height: auto;
   display: block; }
 
-.item .text, .item-L .text {
+#resize {
+  padding-top: 1.5rem; }
+
+.text {
   background-color: #131313;
-  padding: 0.1rem; }
+  position: absolute;
+  bottom: -3rem; }
 
 .item p, .item-L p {
   color: #FFFFFF;
-  padding-left: 0.5rem;
-  font-size: 0.95rem; }
+  padding-left: 0.5rem; }
 
 #side {
   width: 20%;
@@ -106,6 +110,10 @@ h2 {
 .item-L {
   width: 48%; }
 
+#content {
+  position: relative; }
+
+/* FOOTER */
 footer {
   background-color: #131313;
   margin-top: 1rem; }

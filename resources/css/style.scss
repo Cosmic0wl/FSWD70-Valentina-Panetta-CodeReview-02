@@ -86,6 +86,7 @@ h2 {
 #row {
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom: 3rem;
 }
 
 .item {
@@ -93,20 +94,24 @@ h2 {
 }
 
 .item img, .item-L img {
-	max-width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
 }
 
-.item .text, .item-L .text {
+#resize {
+	padding-top: 1.5rem;
+}
+
+.text {
 	background-color: $bottom-color;
-	padding: 0.1rem;
+	position: absolute;
+	bottom: -3rem;
 }
 
 .item p, .item-L p {
 	color: $font-color;
 	padding-left: 0.5rem;
-	font-size: 0.95rem;
 }
 
 #side {
@@ -144,6 +149,14 @@ h2 {
 	width: 48%;
 }
 
+#content {
+	position: relative;
+}
+
+
+
+/* FOOTER */
+
 footer {
 	background-color: $bottom-color;
 	margin-top: 1rem;
@@ -153,7 +166,6 @@ footer {
 	justify-content: flex-end;
 	padding-right: 2rem;
 }
-
 
 footer p {
 	text-align: center;
