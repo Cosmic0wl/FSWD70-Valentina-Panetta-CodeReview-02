@@ -67,6 +67,7 @@ nav li a {
 
 h2 {
 	background-color: $divider-color;
+	width: 100%;
 }
 
 /* SECTION NEWS */
@@ -79,21 +80,21 @@ h2 {
 #section-news {
 	width: 80%;
 	flex-direction: column;
-	justify-content: space-between;
-	height: 100%;
+	justify-content: center;
 }
 
 #row {
 	flex-direction: row;
 	justify-content: space-between;
+	
 }
 
 .item {
-	width: 30%;
+	width: 32%;
 }
 
 .item img, .item-L img {
-	width: 100%;
+	max-width: 100%;
     height: auto;
     display: block;
 }
@@ -103,18 +104,17 @@ h2 {
 	padding: 0.1rem;
 }
 
-.item p, .item-L {
+.item p, .item-L p {
 	color: $font-color;
+	padding-left: 0.5rem;
+	font-size: 0.75rem;
 }
 
 #side {
-	width: 20%;
-	margin-left: 1rem;
-}
+	}
 
 #side img{
-	width: 100%;
-	height: auto;
+	height: 100%;
 } 
 
 /* DIVIDER */
@@ -134,7 +134,6 @@ h2 {
 	width: 80%;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	height: 100%;
 }
 
 .item-L {
