@@ -1,19 +1,131 @@
-body {
-    font-size: 16px; 
-    font-family: Arial, sans-serif;
-}
-
-
 /* color palette */
 
 $logo-color: #581113;
 $divider-color: #DEDEDE;
 $bottom-color: #131313;
+$font-color: #FFFFFF;
+$h2-color: #4B4B4B;
 
+body {
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+}
+
+.flex {
+	display: flex;
+}
 
 /* WRAPPER AND CONTAINER */
 
-#container {
+#wrapper {
     width: 80%;
     margin: 0 auto;
 }
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+#banner {
+	justify-content: space-between;
+	padding: 0.5rem;
+	background-color: $logo-color;
+	align-items: center;
+}
+
+#banner img {
+	margin-left: 0.3rem; 
+	margin-right: 0.3rem;
+}
+
+/* NAVIGATION HEADER AND FOOOTER*/
+
+nav {
+    background-color: $bottom-color;
+    padding: 0.2rem;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    padding-right: 0.2rem;
+    color: $font-color;
+}
+
+/* MAIN CONTENT */
+
+#date {
+	justify-content: flex-end;
+}
+
+h2 {
+	background-color: $divider-color;
+}
+
+/* SECTION NEWS */
+
+#section {
+	justify-content: space-between;
+	width: 100%;
+}
+
+#section-news {
+	width: 80%;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.row {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 25%;
+}
+
+.item img {
+	width: 100%;
+    height: 70%;
+    display: block;
+}
+
+.item p {
+	background-color: black;
+	color: white;
+}
+
+#side {
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
