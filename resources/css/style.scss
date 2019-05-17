@@ -78,33 +78,49 @@ h2 {
 #section-news {
 	width: 80%;
 	flex-direction: column;
-	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.row {
+#row {
 	flex-direction: row;
-	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .item {
-	width: 25%;
+	width: 30%;
 }
 
 .item img {
 	width: 100%;
-    height: 70%;
+    height: auto;
     display: block;
 }
 
+.item .text {
+	background-color: $bottom-color;
+	padding: 0.1rem;
+}
+
 .item p {
-	background-color: black;
-	color: white;
+	color: $font-color;
 }
 
 #side {
 	width: 20%;
+	margin-left: 1rem;
 }
 
+#side img{
+	width: 100%;
+	height: auto;
+} 
+
+/* DIVIDER */
+
+#divider {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 
 
 
