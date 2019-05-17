@@ -111,10 +111,13 @@ h2 {
 }
 
 #side {
+	width: 20%;
+	border: solid 1px pink;
 	}
 
 #side img{
-	height: 100%;
+	display: block;
+	margin-left: auto;
 } 
 
 /* DIVIDER */
