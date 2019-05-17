@@ -86,7 +86,6 @@ h2 {
 #row {
 	flex-direction: row;
 	justify-content: space-between;
-	
 }
 
 .item {
@@ -107,7 +106,7 @@ h2 {
 .item p, .item-L p {
 	color: $font-color;
 	padding-left: 0.5rem;
-	font-size: 0.75rem;
+	font-size: 0.95rem;
 }
 
 #side {
@@ -128,7 +127,9 @@ h2 {
 }
 
 #divider img {
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 /* TECH SECTION */
@@ -143,10 +144,21 @@ h2 {
 	width: 48%;
 }
 
+footer {
+	background-color: $bottom-color;
+	margin-top: 1rem;
+}
+
+#logo {
+	justify-content: flex-end;
+	padding-right: 2rem;
+}
 
 
-
-
+footer p {
+	text-align: center;
+	color: $font-color;
+}
 
 
 
