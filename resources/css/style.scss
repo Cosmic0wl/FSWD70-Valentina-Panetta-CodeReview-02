@@ -19,6 +19,7 @@ body {
 
 #wrapper {
     width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -79,6 +80,7 @@ h2 {
 	width: 80%;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 100%;
 }
 
 #row {
@@ -90,18 +92,18 @@ h2 {
 	width: 30%;
 }
 
-.item img {
+.item img, .item-L img {
 	width: 100%;
     height: auto;
     display: block;
 }
 
-.item .text {
+.item .text, .item-L .text {
 	background-color: $bottom-color;
 	padding: 0.1rem;
 }
 
-.item p {
+.item p, .item-L {
 	color: $font-color;
 }
 
@@ -122,8 +124,22 @@ h2 {
 	margin-bottom: 1rem;
 }
 
+#divider img {
+	width: 100%;
+}
 
+/* TECH SECTION */
 
+#section-tech {
+	width: 80%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.item-L {
+	width: 48%;
+}
 
 
 
