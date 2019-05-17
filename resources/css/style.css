@@ -1,6 +1,11 @@
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: Arial, sans-serif; }
 
 /* color palette */
+/* WRAPPER AND CONTAINER */
+#container {
+  width: 80%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
