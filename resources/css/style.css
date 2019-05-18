@@ -81,7 +81,8 @@ h2 {
 
 .item p, .item-L p {
   color: #FFFFFF;
-  padding-left: 0.5rem; }
+  padding: 0.5rem;
+  text-align: left; }
 
 #side {
   width: 20%;
@@ -89,7 +90,8 @@ h2 {
 
 #side img {
   display: block;
-  margin-left: auto; }
+  margin-left: auto;
+  height: 100%; }
 
 /* DIVIDER */
 #divider {
@@ -105,7 +107,8 @@ h2 {
 #section-tech {
   width: 80%;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: baseline; }
 
 .item-L {
   width: 48%; }
@@ -116,7 +119,7 @@ h2 {
 /* FOOTER */
 footer {
   background-color: #131313;
-  margin-top: 1rem; }
+  margin-top: 2rem; }
 
 #logo {
   justify-content: flex-end;
@@ -124,6 +127,7 @@ footer {
 
 footer p {
   text-align: center;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 0.75rem; }
 
 /*# sourceMappingURL=style.css.map */

@@ -111,7 +111,8 @@ h2 {
 
 .item p, .item-L p {
 	color: $font-color;
-	padding-left: 0.5rem;
+	padding: 0.5rem;
+	text-align: left;
 }
 
 #side {
@@ -122,6 +123,7 @@ h2 {
 #side img{
 	display: block;
 	margin-left: auto;
+	height: 100%;
 } 
 
 /* DIVIDER */
@@ -143,6 +145,7 @@ h2 {
 	width: 80%;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: baseline;
 }
 
 .item-L {
@@ -159,7 +162,7 @@ h2 {
 
 footer {
 	background-color: $bottom-color;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 
 #logo {
@@ -170,6 +173,7 @@ footer {
 footer p {
 	text-align: center;
 	color: $font-color;
+	font-size: 0.75rem;
 }
 
 
