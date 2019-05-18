@@ -16,8 +16,8 @@ body {
 }
 
 a {
-	text-decoration: none;
-	color: $font-color;
+    text-decoration: none;
+    color: $font-color;
 }
 
 /* WRAPPER AND CONTAINER */
@@ -188,9 +188,9 @@ h2 {
 /* MOBILE OVERRIDES */
 
 @media screen and (min-width: 580px) {
-	#mobile-tablet {
-		display: none;
-	}
+    #mobile-tablet {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -199,94 +199,97 @@ h2 {
     }
 
     #container {
-    	display: none;
+        display: none;
     }
 
     #mobile-wrap {
-    	display: flex;
-    	flex-wrap: wrap;
-    	justify-content: space-between;
-    	align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 
-	#bigger img {
-		width: 100%;
-	}
+    #bigger img {
+        width: 100%;
+    }
 
     #mobile-wrap .item {
-    	width: 48%;
-    	margin-bottom: 1rem;
+        width: 48%;
+        margin-bottom: 1rem;
     }
 
     #mobile-wrap .item img {
-    	object-fit: cover;
+        object-fit: cover;
     }
 
-     #mobile-wrap p {
-    	font-size: 0.75rem;
-    	background-color: $bottom-color;
-    	margin: 0;
-    	padding: 1rem;
+    #mobile-wrap p {
+        font-size: 0.75rem;
+        background-color: $bottom-color;
+        margin: 0;
+        padding: 1rem;
     }
 
-    #footer, #banner, #header-nav{
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	justify-content: center;
+    #footer,
+    #banner,
+    #header-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #banner img {
-    	padding-left: 3rem;
+        padding-left: 3rem;
     }
 
     #logo img {
-    	padding-left: 4.3rem;
+        padding-left: 4.3rem;
     }
 
     #footer p {
-    	padding-left: 2rem;
+        padding-left: 2rem;
     }
 
     #wrapper {
-    width: 100%;
-    margin: 0 auto;
-}
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 /* TABLET OVERRIDES */
 
 @media screen and (max-width: 1024px) {
 
-	#hidden {
-		display: none;
-	}
+    #hidden {
+        display: none;
+    }
 
-	#divider {
-		margin-bottom: 5rem;
-	}
+    #divider {
+        margin-bottom: 5rem;
+    }
 
-	#side {
-		display: none;
-	}
+    #side {
+        display: none;
+    }
 
-	#section-tech, #section-news, #row {
-		width: 100%;
-		flex-direction: column;
-		flex-wrap: nowrap;
-    	align-items: center;
-    	justify-content: space-around;
-	}
+    #section-tech,
+    #section-news,
+    #row {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-	.item, .item-L {
-		width: 80%;
-		margin-bottom: 2rem;
-	}
+    .item,
+    .item-L {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
 
-	.text {
-    bottom: 0rem;
-    width: 100%;
+    .text {
+        bottom: 0rem;
+        width: 100%;
+    }
 }
-}
-
-
