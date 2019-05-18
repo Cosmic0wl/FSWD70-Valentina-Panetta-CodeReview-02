@@ -73,6 +73,7 @@ h2 {
     background-color: $divider-color;
     width: 100%;
     color: $h2-color;
+    padding-left: 0.5rem;
 }
 
 /* SECTION NEWS */
@@ -220,6 +221,7 @@ h2 {
 
     #mobile-wrap .item img {
         object-fit: cover;
+        height: 10rem;
     }
 
     #mobile-wrap p {
