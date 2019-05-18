@@ -6,6 +6,10 @@ body {
 .flex {
   display: flex; }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
 /* WRAPPER AND CONTAINER */
 #wrapper {
   width: 80%;
@@ -36,9 +40,7 @@ nav li {
   display: inline; }
 
 nav li a {
-  text-decoration: none;
-  padding-right: 0.2rem;
-  color: #FFFFFF; }
+  padding-right: 0.2rem; }
 
 /* MAIN CONTENT */
 #date {
@@ -140,7 +142,7 @@ h2 {
 @media screen and (min-width: 780px) {
   #mobile-tablet {
     display: none; } }
-@media screen and (max-width: 480px) {
+@media screen {
   #hidden {
     display: none; }
 
