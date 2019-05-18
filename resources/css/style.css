@@ -139,7 +139,7 @@ h2 {
   font-size: 0.75rem; }
 
 /* MOBILE AND TABLET OVERRIDES */
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 480px) {
   #mobile-tablet {
     display: none; } }
 @media screen and (max-width: 480px) {
@@ -185,11 +185,5 @@ h2 {
 
   #footer p {
     padding-left: 2rem; } }
-@media screen and (max-width: 780px) {
-  #hidden {
-    display: none; }
-
-  #container {
-    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

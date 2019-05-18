@@ -186,7 +186,7 @@ h2 {
 
 /* MOBILE AND TABLET OVERRIDES */
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 480px) {
 	#mobile-tablet {
 		display: none;
 	}
@@ -201,7 +201,7 @@ h2 {
     	display: none;
     }
 
-        #mobile-wrap {
+    #mobile-wrap {
     	display: flex;
     	flex-wrap: wrap;
     	justify-content: space-between;
@@ -249,13 +249,3 @@ h2 {
 }
 
 
-@media screen and (max-width: 780px) {
-    #hidden {
-        display: none;
-    }
-
-    #container {
-    	display: none;
-    }
-	
-}
