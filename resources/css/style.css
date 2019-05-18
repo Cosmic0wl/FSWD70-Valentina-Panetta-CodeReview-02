@@ -67,7 +67,8 @@ h2 {
 .item {
   width: 32%; }
 
-.item img, .item-L img {
+.item img,
+.item-L img {
   max-width: 100%;
   height: auto;
   display: block; }
@@ -83,7 +84,8 @@ h2 {
   position: absolute;
   bottom: -3rem; }
 
-.item p, .item-L p {
+.item p,
+.item-L p {
   color: #FFFFFF;
   padding: 0.5rem;
   text-align: left; }
@@ -132,5 +134,18 @@ h2 {
   text-align: center;
   color: #FFFFFF;
   font-size: 0.75rem; }
+
+@media screen and (max-width: 480px) {
+  #hidden {
+    visibility: hidden; }
+
+  #mobile-none {
+    display: none; } }
+@media screen and (max-width: 780px) {
+  #hidden {
+    visibility: hidden; }
+
+  #mobile-none {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
