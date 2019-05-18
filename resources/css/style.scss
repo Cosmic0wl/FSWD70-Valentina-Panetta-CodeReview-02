@@ -186,13 +186,13 @@ h2 {
 
 /* MOBILE AND TABLET OVERRIDES */
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 580px) {
 	#mobile-tablet {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 580px) {
     #hidden {
         display: none;
     }
