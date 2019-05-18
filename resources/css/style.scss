@@ -118,7 +118,8 @@ h2 {
 .item p,
 .item-L p {
     color: $font-color;
-    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
     text-align: left;
 }
 
@@ -214,8 +215,13 @@ h2 {
     	align-items: center;
     }
 
+	#bigger img {
+		width: 100%;
+	}
+
     #mobile-wrap .item {
     	width: 48%;
+    	margin-bottom: 1rem;
     }
 
     #mobile-wrap .item img {
@@ -223,8 +229,10 @@ h2 {
     }
 
      #mobile-wrap p {
-    	font-size: 0.5rem;
+    	font-size: 0.75rem;
     	background-color: $bottom-color;
+    	margin: 0;
+    	padding: 1rem;
 		
     }
 }

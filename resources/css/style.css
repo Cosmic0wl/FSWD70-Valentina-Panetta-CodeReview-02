@@ -87,7 +87,8 @@ h2 {
 .item p,
 .item-L p {
   color: #FFFFFF;
-  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
   text-align: left; }
 
 #side {
@@ -158,14 +159,20 @@ h2 {
     justify-content: space-between;
     align-items: center; }
 
+  #bigger img {
+    width: 100%; }
+
   #mobile-wrap .item {
-    width: 48%; }
+    width: 48%;
+    margin-bottom: 1rem; }
 
   #mobile-wrap .item img {
     object-fit: cover; }
 
   #mobile-wrap p {
-    font-size: 0.5rem;
-    background-color: #131313; } }
+    font-size: 0.75rem;
+    background-color: #131313;
+    margin: 0;
+    padding: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */
