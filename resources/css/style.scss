@@ -72,6 +72,7 @@ nav li a {
 h2 {
     background-color: $divider-color;
     width: 100%;
+    color: $h2-color;
 }
 
 /* SECTION NEWS */
@@ -184,7 +185,7 @@ h2 {
     font-size: 0.75rem;
 }
 
-/* MOBILE AND TABLET OVERRIDES */
+/* MOBILE OVERRIDES */
 
 @media screen and (min-width: 580px) {
 	#mobile-tablet {
@@ -250,6 +251,41 @@ h2 {
     #wrapper {
     width: 100%;
     margin: 0 auto;
+}
+}
+
+/* TABLET OVERRIDES */
+
+@media screen and (max-width: 1024px) {
+
+	#hidden {
+		display: none;
+	}
+
+	#divider {
+		margin-bottom: 5rem;
+	}
+
+	#side {
+		display: none;
+	}
+
+	#section-tech, #section-news, #row {
+		width: 100%;
+		flex-direction: column;
+		flex-wrap: nowrap;
+    	align-items: center;
+    	justify-content: space-around;
+	}
+
+	.item, .item-L {
+		width: 80%;
+		margin-bottom: 2rem;
+	}
+
+	.text {
+    bottom: 0rem;
+    width: 100%;
 }
 }
 
