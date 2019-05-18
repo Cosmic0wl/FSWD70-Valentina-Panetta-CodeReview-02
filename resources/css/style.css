@@ -51,7 +51,8 @@ h2 {
 /* SECTION NEWS */
 #section {
   justify-content: space-between;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2rem; }
 
 #section-news {
   width: 80%;
@@ -73,6 +74,9 @@ h2 {
 
 #resize {
   padding-top: 1.5rem; }
+
+#content {
+  position: relative; }
 
 .text {
   background-color: #131313;
@@ -107,25 +111,24 @@ h2 {
 #section-tech {
   width: 80%;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline; }
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: space-around; }
 
 .item-L {
-  width: 48%; }
-
-#content {
-  position: relative; }
+  width: 40%;
+  margin-bottom: 1.5rem; }
 
 /* FOOTER */
-footer {
+#footer {
   background-color: #131313;
-  margin-top: 2rem; }
+  margin-top: 5rem; }
 
 #logo {
   justify-content: flex-end;
   padding-right: 2rem; }
 
-footer p {
+#footer p {
   text-align: center;
   color: #FFFFFF;
   font-size: 0.75rem; }

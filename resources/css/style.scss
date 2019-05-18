@@ -75,6 +75,7 @@ h2 {
 #section {
 	justify-content: space-between;
 	width: 100%;
+	margin-bottom: 2rem;
 }
 
 #section-news {
@@ -101,6 +102,10 @@ h2 {
 
 #resize {
 	padding-top: 1.5rem;
+}
+
+#content {
+	position: relative;
 }
 
 .text {
@@ -144,25 +149,21 @@ h2 {
 #section-tech {
 	width: 80%;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: baseline;
+	align-content: space-around;
 }
 
 .item-L {
-	width: 48%;
+	width: 40%;
+	margin-bottom: 1.5rem;
 }
-
-#content {
-	position: relative;
-}
-
-
 
 /* FOOTER */
 
-footer {
+#footer {
 	background-color: $bottom-color;
-	margin-top: 2rem;
+	margin-top: 5rem;
 }
 
 #logo {
@@ -170,7 +171,7 @@ footer {
 	padding-right: 2rem;
 }
 
-footer p {
+#footer p {
 	text-align: center;
 	color: $font-color;
 	font-size: 0.75rem;
