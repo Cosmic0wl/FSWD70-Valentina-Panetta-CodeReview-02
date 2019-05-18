@@ -116,12 +116,12 @@ h2 {
 #section-tech {
   width: 80%;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
   align-content: space-around; }
 
 .item-L {
-  width: 40%;
+  width: 45%;
   margin-bottom: 1rem; }
 
 /* FOOTER */
@@ -142,13 +142,13 @@ h2 {
 @media screen and (min-width: 780px) {
   #mobile-tablet {
     display: none; } }
-@media screen {
+@media screen and (max-width: 780px) {
   #hidden {
     display: none; }
 
   #container {
     display: none; } }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 480px) {
   #hidden {
     display: none; }
 
