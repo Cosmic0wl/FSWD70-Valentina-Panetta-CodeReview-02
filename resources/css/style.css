@@ -89,11 +89,11 @@ h2 {
   text-align: left; }
 
 #side {
-  width: 20%;
-  border: solid 1px pink; }
+  width: 20%; }
 
 #side img {
   display: block;
+  width: 63%;
   margin-left: auto;
   height: 100%; }
 
@@ -117,7 +117,7 @@ h2 {
 
 .item-L {
   width: 40%;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 /* FOOTER */
 #footer {
